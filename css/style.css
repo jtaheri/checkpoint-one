@@ -1,0 +1,205 @@
+body {
+  width: 100%;
+  background-color: #333333;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  padding: 5px;
+}
+
+.logo img {
+  height: auto;
+  width: 150px;
+  object-fit: contain;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 250px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  background-color: black;
+}
+
+.links a {
+  font-size: 150%;
+  color: white;
+}
+
+.links a:hover {
+  color: gray;
+  font-size: 175%;
+}
+
+.storePhoto {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  /* background-color: #1a1a1a; */
+  height: 350px;
+}
+
+.storePhoto img{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 300px;
+  padding-top: 25px;
+}
+
+.storePhoto img:hover {
+  height: 320px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  padding: 3px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 200%;
+  width: 100%;
+  height: 300px;
+  align-items: center;
+  background-color: #333333;
+  font-family: 'Indie Flower', cursive;
+}
+
+.products img {
+  width: auto;
+  height: 150px;
+}
+
+.products div {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.products h3 {
+  text-align: center;
+}
+
+.products div:hover {
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  padding: 10px;
+  color: white;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* background-color: #4d4d4d; */
+  color: white;
+  justify-content: space-around;
+  height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 180%;
+}
+
+.middle div {
+  background-color: black;
+  padding: 10px;
+}
+
+.middle div:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.middle h3 {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-family: 'Indie Flower';
+  font-size: 120%;
+}
+
+.middle ul {
+  list-style: none;
+  font-family: 'Indie Flower', cursive;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 20px;
+  /* background-color: #666666; */
+}
+
+.bottom img {
+  width: 50px;
+}
+
+.socialMedia {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.socialMedia img:hover {
+  width: 55px;
+}
+
+.commentBox {
+  width: 300px;
+  font-size: 140%;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding: 3px;
+  background-color: #666666;
+}
+
+.commentBox h3 {
+  padding: 10px;
+  font-style: italic;
+}
+
+.commentBox textarea {
+  padding-top: 10px;
+  padding-left: 5px;
+  width: 290px;
+  height: 200px;
+  text-align: top;
+  font-size: 80%;
+  background-color: #808080;
+}
+
+::placeholder {
+  color: white;
+}
+
+.map iframe {
+  width: 300px;
+  height: 300px;
+}
